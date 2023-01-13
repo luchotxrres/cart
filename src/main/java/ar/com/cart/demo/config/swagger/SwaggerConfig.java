@@ -1,6 +1,5 @@
 package ar.com.cart.demo.config.swagger;
 
-
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
 import io.swagger.v3.oas.models.info.Info;
@@ -16,9 +15,9 @@ public class SwaggerConfig {
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
                 .info(new Info().title("Cart-Demo")
-                        .description("API Documentation")
-                        .version("1.0")
-                        .contact(new Contact().name("Luciano Torres").email("luciano_torres98@hotmail.com"))
-                        .license(new License().name("Apache 2.0").url("http://springdoc.org")));
+                .description("API Documentation")
+                .version("1.0")
+                .contact(new Contact().name("Luciano Torres").email("luciano_torres98@hotmail.com"))
+                .license(new License().name("Apache 2.0").url("http://springdoc.org")));
     }
 }
